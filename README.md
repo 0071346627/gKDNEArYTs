@@ -4,18 +4,18 @@ Web Developer recruitment test for roles at BBC.com http://www.bbc.com
 
 Thank you for taking the time to do our technical test. It consists of two parts:
 
-    Create a GitHub repository [help](https://guides.github.com/activities/hello-world/0)
-    Develop a web application
+- Create a GitHub repository ([help](https://guides.github.com/activities/hello-world/0))
+- Develop a web application
 
 The test is designed to assess your interest and experience in web development. We want to see your code, your approach and your talent.
 Task requirements
 
 The task is to create a responsive web application that you can use to see the weather in one of 5 prelisted locations: London, Paris, New-York, Singapore and Sydney. The application should display the following information:
 
-    Location
-    Current weather summary
-    Current weather temperature
-    Current weather icon
+- Location
+- Current weather summary
+- Current weather temperature
+- Current weather icon
 
 To get the weather data, we recommend using the [Dark Sky API](https://darksky.net/dev/docs), signing up is free (no need to enter any bank details).
 
@@ -32,7 +32,7 @@ Display a list of videos:
   As a user
   When I select a location
   I want to see the current weather
-  So that I know what the weather is for the selected location
+  So that I know what the weather is for the location I selected
 
 What you need to build
 
