@@ -4,7 +4,7 @@ Web Developer recruitment test for roles at BBC.com http://www.bbc.com
 
 Thank you for taking the time to do our technical test. It consists of two parts:
 
-    Create a GitHub repository (help)
+    Create a GitHub repository [help](https://guides.github.com/activities/hello-world/0)
     Develop a web application
 
 The test is designed to assess your interest and experience in web development. We want to see your code, your approach and your talent.
@@ -17,7 +17,7 @@ The task is to create a responsive web application that you can use to see the w
     Current weather temperature
     Current weather icon
 
-To get the weather data, we recommend using the Dark Sky API (https://darksky.net/dev/docs), signing up is free (no need to enter any bank details).
+To get the weather data, we recommend using the [Dark Sky API](https://darksky.net/dev/docs), signing up is free (no need to enter any bank details).
 
 One of the requirements is to keep your commits atomic. Keep them small so it is easier for us to review your code and see each incremental change. Once you're done, create a Pull Request and send us the link to your repo.
 User Stories
