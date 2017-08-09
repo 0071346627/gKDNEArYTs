@@ -4,7 +4,7 @@ Web Developer recruitment test for roles at BBC.com http://www.bbc.com
 
 Thank you for taking the time to do our technical test. It consists of two parts:
 
-- Create a GitHub repository ([help](https://guides.github.com/activities/hello-world/0))
+- Create a GitHub repository ([help](https://guides.github.com/activities/hello-world))
 - Develop a web application
 
 The test is designed to assess your interest and experience in web development. We want to see your code, your approach and your talent.
