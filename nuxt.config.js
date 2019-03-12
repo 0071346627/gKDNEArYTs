@@ -27,6 +27,10 @@ const nuxtConfig = {
     description: 'A simply readable weather app.'
   },
   /*
+  ** Global CSS
+  */
+  css: ['~/assets/index.scss'],
+  /*
   ** Plugins to load before mounting the App
   */
   plugins: ['~/plugins/global-components.js'],
