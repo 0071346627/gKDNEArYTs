@@ -42,6 +42,16 @@ const nuxtConfig = {
   router: {
     linkExactActiveClass: 'is-active'
   },
+  // Doc: https://axios.nuxtjs.org/usage
+  axios: {
+    proxy: true
+  },
+  proxy: {
+    '/darksky/': {
+      target: 'https://api.darksky.net/',
+      pathRewrite: { '^/darksky/': '' }
+    }
+  },
   /*
   ** Build configuration
   */
