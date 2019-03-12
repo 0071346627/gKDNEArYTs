@@ -1,4 +1,4 @@
 import { DARKSKY_BASE } from '~/core/constants'
 
-export const darksky = (longitude, latitude) =>
+export const darkskyQuery = (longitude, latitude) =>
   `/${DARKSKY_BASE}/${longitude},${latitude}`

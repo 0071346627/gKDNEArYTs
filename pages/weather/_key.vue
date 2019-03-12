@@ -26,7 +26,7 @@
 import { LOCATIONS } from '~/content/locations.json'
 import { MAP as iconMap } from '~/content/icon.json'
 import { ROUTES } from '~/core/constants'
-import { darksky } from '~/core/utils'
+import { darkskyQuery } from '~/core/utils'
 
 export default {
   data() {
@@ -37,7 +37,7 @@ export default {
   async asyncData({ $axios, route }) {
     const location = LOCATIONS.find(({ key }) => key === route.params.key)
     const { latitude, longitude } = location
-    const { currently } = await $axios.$get(darksky(longitude, latitude))
+    const { currently } = await $axios.$get(darkskyQuery(longitude, latitude))
     return { location, weather: currently }
   },
   validate({ route }) {
