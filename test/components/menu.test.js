@@ -2,7 +2,6 @@ import Menu from '~/components/menu'
 import { mount } from '@vue/test-utils'
 import { LOCATIONS } from '~/content/locations.json'
 
-const ACTIVE_PATH = '/weather/paris'
 const propsData = { links: LOCATIONS, title: 'My title' }
 
 describe('Menu', () => {
@@ -12,11 +11,6 @@ describe('Menu', () => {
   beforeAll(() => {
     wrapper = mount(Menu, {
       propsData,
-      mocks: {
-        $route: {
-          path: ACTIVE_PATH
-        }
-      },
       stubs: ['nuxt-link']
     })
     html = wrapper.html()
