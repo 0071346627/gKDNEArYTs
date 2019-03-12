@@ -1,0 +1,44 @@
+{
+  "LOCATIONS": [
+    {
+      "name": "london",
+      "country": "united kingdom",
+      "key": "london",
+      "path": "/weather/london",
+      "longitude": "51.5074",
+      "latitude": "0.1278"
+    },
+    {
+      "name": "paris",
+      "country": "france",
+      "key": "paris",
+      "path": "/weather/paris",
+      "longitude": "48.8566",
+      "latitude": "2.3522"
+    },
+    {
+      "name": "new york",
+      "country": "united states",
+      "key": "new-york",
+      "path": "/weather/new-york",
+      "longitude": "42.3601",
+      "latitude": "-71.0589"
+    },
+    {
+      "name": "singapore",
+      "country": "singapore",
+      "key": "singapore",
+      "path": "/weather/singapore",
+      "longitude": "1.3521",
+      "latitude": "103.8198"
+    },
+    {
+      "name": "sydney",
+      "country": "australia",
+      "key": "sydney",
+      "path": "/weather/sydney",
+      "longitude": "-33.8688",
+      "latitude": "151.2093"
+    }
+  ]
+}
