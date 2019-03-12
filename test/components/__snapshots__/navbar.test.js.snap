@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar html snapshot 1`] = `
+"<nav role=\\"navigation\\" aria-label=\\"main navigation\\" class=\\"navbar is-dark is-capitalized\\"><div class=\\"container\\"><div class=\\"navbar-brand\\"><h1 class=\\"navbar-item is-size-5 has-text-weight-bold\\">
+        my weather
+      </h1> <a role=\\"button\\" aria-label=\\"menu\\" aria-expanded=\\"false\\" data-target=\\"navbar-menu\\" class=\\"navbar-burger burger\\"><span aria-hidden=\\"true\\"></span> <span aria-hidden=\\"true\\"></span> <span aria-hidden=\\"true\\"></span></a></div> <div id=\\"navbar-menu\\" class=\\"navbar-menu\\"><div class=\\"navbar-start\\"><nuxt-link-stub to=\\"/\\" class=\\"navbar-item\\">home</nuxt-link-stub></div></div></div></nav>"
+`;

@@ -1,0 +1,14 @@
+{
+  "MAP": {
+    "clear-day": "sun",
+    "clear-night": "moon",
+    "rain": "tint",
+    "snow": "snowflake",
+    "sleet": "cloud-showers-heavy",
+    "wind": "wind",
+    "fog": "cloud",
+    "cloudy": "cloud",
+    "partly-cloudy-day": "cloud-sun",
+    "partly-cloudy-night": "cloud-moon"
+  }
+}

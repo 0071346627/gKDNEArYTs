@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu html snapshot 1`] = `
+"<aside class=\\"menu is-capitalized\\"><p class=\\"menu-label has-text-black\\">
+    My title
+  </p> <ul class=\\"menu-list\\"><li><nuxt-link-stub to=\\"/weather/london\\">london</nuxt-link-stub></li><li><nuxt-link-stub to=\\"/weather/paris\\">paris</nuxt-link-stub></li><li><nuxt-link-stub to=\\"/weather/new-york\\">new york</nuxt-link-stub></li><li><nuxt-link-stub to=\\"/weather/singapore\\">singapore</nuxt-link-stub></li><li><nuxt-link-stub to=\\"/weather/sydney\\">sydney</nuxt-link-stub></li></ul></aside>"
+`;

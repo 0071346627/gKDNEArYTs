@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pa11y no accessibility issues detected by pa11y 1`] = `
+Object {
+  "documentTitle": "bbc",
+  "issues": Array [],
+  "pageUrl": "http://localhost:3000/weather/london",
+}
+`;
