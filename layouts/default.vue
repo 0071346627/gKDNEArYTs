@@ -1,9 +1,7 @@
 <template>
   <div>
     <v-navbar :title="title" :links="links" />
-    <div style="min-height: calc(100vh-50px);">
-      <nuxt />
-    </div>
+    <nuxt />
   </div>
 </template>
 
