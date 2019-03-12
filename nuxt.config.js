@@ -15,6 +15,17 @@ const nuxtConfig = {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   /*
+  ** Manifest https://developer.mozilla.org/en-US/docs/Web/Manifest
+  */
+  manifest: {
+    name: 'My Weather',
+    lang: 'en',
+    short_name: 'My Weather',
+    start_url: '.',
+    display: 'standalone',
+    background_color: '#fff',
+    description: 'A simply readable weather app.'
+  },
   ** Loading bar colour
   */
   loading: { color: 'lime' },
