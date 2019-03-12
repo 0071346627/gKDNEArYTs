@@ -26,6 +26,11 @@ const nuxtConfig = {
     background_color: '#fff',
     description: 'A simply readable weather app.'
   },
+  /*
+  ** Plugins to load before mounting the App
+  */
+  plugins: ['~/plugins/global-components.js'],
+  /*
   ** Loading bar colour
   */
   loading: { color: 'lime' },
